@@ -1,2 +1,2 @@
-# glitchmasta47.github.io
-My GitHub.io sites!!
+# GitHub Web Hosting
+Free website hosting from GitHub
