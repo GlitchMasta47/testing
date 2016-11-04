@@ -1,2 +1,2 @@
-# GitHub Web Hosting
-Free website hosting from GitHub
+# GlitchMasta47 GitHub Site
+Used to show off GitHub repositories and projects
