@@ -13,7 +13,7 @@ body {
   text-align: left;
 }
 
-#header, footer {
+#header {
   margin-top: 20px;
   background: #37474F;
   color: white;
@@ -98,32 +98,6 @@ body {
   border-bottom: dotted 1px;
 }
 
-footer ul {
-  list-style: none;
-  padding: 0;
-  line-height: 40px;
-}
-
-footer ul li {
-  color: rgba(255,255,255,0.6);
-}
-
-footer ul li a {
-  color: rgba(255,255,255,0.6);
-  text-decoration: none;
-  transition: 100ms color;
-}
-
-footer ul li a:hover {
-  color: rgba(255,255,255,0.8);
-}
-
-footer li .fa {
-  font-size: 16px;
-  width: 16px;
-  margin-right: 8px;
-}
-
 @media screen and (max-width: 768px) {
   body, #page {
     padding-bottom: 0;
@@ -138,9 +112,5 @@ footer li .fa {
     padding:2rem 1rem !important;
     margin: 1rem 0;
     text-align: center;
-  }
-
-  footer.slide {
-    margin-bottom: 0;
   }
 }
