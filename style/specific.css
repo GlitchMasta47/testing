@@ -1,0 +1,44 @@
+#discordjs_slide {
+  background: #5970C1;
+  background-image: url(../res/discord.png);
+  background-size: auto 192px;
+  background-position: center right 4rem;
+  background-repeat: no-repeat;
+  padding-right: 280px;
+  color: white;
+  padding-top: 0;
+}
+
+#discord_slide p a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+#discord_slide p a:hover {
+  border-bottom: 1px solid;
+}
+
+#discord_slide .pre {
+  padding-top: 4rem;
+}
+
+#discord_slide .preinfo {
+  color: #E6E8F0;
+}
+
+@media screen and (max-width: 768px) {
+  #discord_slide {
+    padding-right: 1rem;
+  }
+
+  #discord_slide .pre {
+    padding-top: 1rem;
+  }
+
+  #discord_slide {
+    background-position: center bottom 20px;
+    padding-bottom: 240px !important;
+  }
+
+}
