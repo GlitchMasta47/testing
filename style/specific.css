@@ -1,44 +1,58 @@
-#discord_slide {
+#test1_slide {
   background: #5970C1;
-  background-image: url(../res/discord.png);
   background-size: auto 192px;
-  background-position: center right 4rem;
   background-repeat: no-repeat;
   padding-right: 280px;
   color: white;
   padding-top: 0;
 }
 
-#discord_slide p a {
+#test1_slide p a {
   color: white;
   text-decoration: none;
   border-bottom: 1px dotted;
 }
 
-#discord_slide p a:hover {
+#test1_slide p a:hover {
   border-bottom: 1px solid;
 }
 
-#discord_slide .pre {
+#test1_slide .pre {
   padding-top: 4rem;
 }
 
-#discord_slide .preinfo {
+#test1_slide .preinfo {
   color: #E6E8F0;
 }
 
+#test2_slide {
+  background: #009688;
+  padding-right: 368px;
+  background-size: 256px auto;
+  color: white;
+}
+
+#test2_slide .preinfo {
+  color: #ECEFF1;
+}
+
 @media screen and (max-width: 768px) {
-  #discord_slide {
+  #test1_slide, #test2_slide {
     padding-right: 1rem;
   }
 
-  #discord_slide .pre {
+  #test1_slide .pre {
     padding-top: 1rem;
   }
 
-  #discord_slide {
+  #test1_slide {
     background-position: center bottom 20px;
     padding-bottom: 240px !important;
+  }
+
+  #test2_slide {
+    background-size: 192px auto;
+    padding-bottom: 330px !important;
   }
 
 }
